@@ -72,7 +72,7 @@ def worker(q, lock):
         # processing
         with lock:
             print(f"in {current_thread().name} got {value}")
-        q.task_done()
+        q.task_done()sw
 if __name__=="__main__":
     q=Queue()
     lock=Lock()
