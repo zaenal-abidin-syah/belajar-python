@@ -1,0 +1,8 @@
+INFO:root:Running 'add' with arguments (5, 6) 
+INFO:root:Running 'sub' with arguments (9, 5) 
+INFO:root:Running 'add' with arguments (5, 7) 
+INFO:root:Running 'sub' with arguments (9, 5) 
+INFO:root:Running 'add' with arguments (5, 7) 
+INFO:root:Running 'sub' with arguments (9, 5) 
+INFO:root:Running 'add' with arguments (5, 7) 
+INFO:root:Running 'sub' with arguments (9, 5) 

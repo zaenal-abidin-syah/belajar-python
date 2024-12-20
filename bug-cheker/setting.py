@@ -1,0 +1,3 @@
+DOMAINS = [
+    "visionplus.id"
+]

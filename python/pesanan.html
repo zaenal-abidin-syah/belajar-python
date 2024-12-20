@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-gray-200">
+    <nav class="bg-white fixed top-0 right-0 left-0">
+      <div
+        class="bg-gradient-to-r from-blue-500 to-teal-200 rounded-tr-[8rem] rounded-bl-[8rem]"
+      >
+        <div class="flex justify-between items-end px-28">
+          <h1 class="text-4xl text-white py-20 font-bold">Apotech</h1>
+          <div class="flex flex-col">
+            <ul
+              class="flex w-full text-white font-bold justify-end gap-4 mx-auto"
+            >
+              <li>Home</li>
+              <li>About Us</li>
+              <li>User 123</li>
+            </ul>
+            <div class="relative pb-20 flex mt-10">
+              <input
+                type="search"
+                class="relative bg-white m-0 -me-0.5 block flex-auto rounded-s bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-surface outline-none transition duration-200 ease-in-out placeholder:text-neutral-500 focus:z-[3] focus:border-primary focus:shadow-inset focus:outline-none motion-reduce:transition-none dark:border-white/10 dark:text-white dark:placeholder:text-neutral-200 dark:autofill:shadow-autofill dark:focus:border-primary"
+                placeholder="Search"
+                aria-label="Search"
+                id="exampleFormControlInput3"
+                aria-describedby="button-addon3"
+              />
+              <button
+                class="z-[2] bg-sky-400 inline-block rounded-e px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:border-primary-accent-300 hover:bg-primary-50/50 hover:text-primary-accent-300 focus:border-primary-600 focus:bg-primary-50/50 focus:text-primary-600 focus:outline-none focus:ring-0 active:border-primary-700 active:text-primary-700 dark:text-primary-500 dark:hover:bg-blue-950 dark:focus:bg-blue-950"
+                data-twe-ripple-init
+                data-twe-ripple-color="white"
+                type="button"
+                id="button-addon3"
+              >
+                Cari
+              </button>
+              <i
+                class="fa fa-shopping-cart px-6 py-[0.25rem] text-2xl"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="mx-24 mt-64 px-20 py-10 flex mb-12 flex-col gap-24 bg-white">
+      <div class="flex gap-10">
+        <div class="bg-gray-200 flex items-center justify-center w-1/2">
+          <img
+            class="max-w-[90%] max-h-[90%]"
+            src="https://d2qjkwm11akmwu.cloudfront.net/products/9490-1665779892.webp"
+            alt="obat"
+          />
+        </div>
+        <div class="pt-2 flex flex-col gap-4 justify-evenly">
+          <h2 class="font-bold text-5xl">Paracetamol (per Strip)</h2>
+          <div class="mb-8 text-2xl">
+            <p class="font-semibold text-3xl text-sky-300 my-8">Rp.5000</p>
+            <span class="text-red-400 italic border-b border-red-300 mr-2">
+              4.9
+            </span>
+            <i class="fa fa-star text-red-400" aria-hidden="true"></i>
+            <i class="fa fa-star text-red-400" aria-hidden="true"></i>
+            <i class="fa fa-star text-red-400" aria-hidden="true"></i>
+            <i class="fa fa-star text-red-400" aria-hidden="true"></i>
+            <i class="fa fa-star text-red-400" aria-hidden="true"></i>
+            <p class="inline">| 10Rb+ Terjual</p>
+          </div>
+          <div>
+            <p class="mb-8 text-2xl">Dosis</p>
+            <p class="mb-8 text-2xl">Kuantitas</p>
+          </div>
+          <div class="flex gap-5">
+            <button
+              class="text-4xl rounded-md text-gray-700 px-5 py-3 bg-green-500"
+            >
+              Tanya Penjual
+            </button>
+            <button
+              class="text-4xl rounded-md text-gray-700 px-5 py-3 bg-blue-500"
+            >
+              Beli
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="p-8 flex flex-col gap-8 bg-gray-200">
+        <div>
+          <h2 class="font-bold text-xl">Deskripsi</h2>
+          <p class="text-lg text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            recusandae error accusamus excepturi explicabo cumque maxime earum
+            temporibus. Natus soluta consequuntur fugit harum sunt sit fuga
+            maxime porro officiis sapiente. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Consectetur aperiam sit
+            exercitationem, doloremque quae quo repudiandae eveniet assumenda
+            unde est, accusamus id nostrum. Fuga vero illo, impedit odit magni
+            maxime?
+          </p>
+        </div>
+        <div>
+          <h2 class="font-bold text-xl">Indikasi Umum</h2>
+          <p class="text-lg text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            recusandae error accusamus excepturi explicabo cumque maxime earum
+            temporibus.
+          </p>
+        </div>
+        <div>
+          <h2 class="font-bold text-xl">Komposisi</h2>
+          <p class="text-lg text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div>
+          <h2 class="font-bold text-xl">Dosis</h2>
+          <p class="text-lg text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            recusandae error accusamus excepturi explicabo cumque maxime earum
+            temporibus.
+          </p>
+        </div>
+        <div>
+          <h2 class="font-bold text-xl">Aturan Pakai</h2>
+          <p class="text-lg text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div>
+          <h2 class="font-bold text-xl">Perhatian</h2>
+          <p class="text-lg text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            recusandae error accusamus excepturi explicabo cumque maxime earum
+            temporibus. Natus soluta consequuntur fugit harum sunt sit fuga
+            maxime porro officiis sapiente. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Non, aliquid cupiditate accusantium
+            impedit explicabo eveniet incidunt iste temporibus, minus placeat
+            voluptatum alias nesciunt perspiciatis molestiae fuga, ad harum
+            tenetur totam.
+          </p>
+        </div>
+        <div>
+          <h2 class="font-bold text-xl">Efek Samping</h2>
+          <p class="text-lg text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            recusandae error accusamus excepturi explicabo cumque maxime earum
+            temporibus. Natus soluta consequuntur fugit harum sunt sit fuga
+            maxime porro officiis sapiente. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Impedit sapiente, exercitationem optio
+            sint nemo voluptas quos similique ipsum, cupiditate facere
+            distinctio quam minus! Ex culpa est minima labore, doloribus beatae?
+          </p>
+        </div>
+        <div>
+          <h2 class="font-bold text-xl">Golongan Produk</h2>
+          <p class="text-lg text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div>
+          <h2 class="font-bold text-xl">Kemasan</h2>
+          <p class="text-lg text-gray-700">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div>
+          <h2 class="font-bold text-xl">Manufaktur</h2>
+          <p class="text-lg text-gray-700">
+            Lorem ipsum dolor sit amet consectetur
+          </p>
+        </div>
+        <div>
+          <h2 class="font-bold text-xl">No. Registrasi</h2>
+          <p class="text-lg text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            recusandae error accusamus excepturi.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="flex justify-center py-3 fixed bottom-0 left-0 right-0 bg-white"
+    >
+      <h1>
+        Hak Cipta
+        <i class="fa fa-copyright text-xs text-gray-700" aria-hidden="true"></i>
+        2024 Apotech
+      </h1>
+    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>

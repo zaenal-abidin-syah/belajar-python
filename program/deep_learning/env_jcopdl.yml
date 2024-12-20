@@ -1,0 +1,43 @@
+name: MachineLearning
+
+channels:
+- conda-forge
+- anaconda
+- pytorch
+
+dependencies:
+# Essential
+- python
+- nb_conda_kernels
+- pip
+- ipython
+- tqdm
+# Data Science
+- numpy
+- scipy
+- pandas
+# Machine Learning
+- scikit-learn
+- umap-learn
+- xgboost
+- scikit-optimize
+# Visualization
+- matplotlib
+- seaborn
+- ipywidgets
+- plotly
+# NLP
+- nltk
+- gensim
+- torchtext
+# Deep Learning
+- pytorch
+# Computer Vision
+- torchvision
+- pillow
+
+- pip:
+  # Machine Learning
+  - jcopml==1.2.0
+  - luwiji==1.2.1
+  - jcopdl==1.1.1
